@@ -1,1 +1,28 @@
+# Ignore IDE packages
+.idea
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Kubernetes secrets
+tools/kubernetes/secrets
+
+# Mac
+.DS_Store
+
+# Ignore Gradle build output directory
+apps/*/build
+apps/*/bin
+libs/*/build
+libs/*/bin
+plugins/*/build
+plugins/*/bin
+build-logic/build
+build-logic/bin
+
 build/
+.idea/
+
+apps/*/src/main/resources/META-INF/native-image/*.json
+
+
