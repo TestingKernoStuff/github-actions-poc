@@ -6,4 +6,5 @@ fun main() {
     println("Going crazy with print statements")
     println("This is getting ridiculous")
     println("There is no end to this madness")
+    println("Sneaky extra println")
 }
