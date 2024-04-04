@@ -7,4 +7,5 @@ fun main() {
     println("This is getting ridiculous")
     println("Mistakes were not learnt from")
     println("I have no words")
+    println("This is a catastrophe")
 }
