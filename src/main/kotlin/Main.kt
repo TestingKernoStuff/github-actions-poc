@@ -6,4 +6,7 @@ fun main() {
     println("Going crazy with print statements")
     println("This is getting ridiculous")
     println("There is no end to this madness")
+    println("Mistakes were not learnt from")
+    println("I have no words")
+    println("This is a catastrophe")
 }
