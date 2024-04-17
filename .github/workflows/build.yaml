@@ -15,6 +15,15 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v4
 
+      - name: Create text file
+        run: echo "This is a test file" > test_file.txt
+
+      - name: Upload file as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: my-fancy-artifact
+          path: test_file.txt
+
       - name: Setup Java 17
         uses: actions/setup-java@v4
         with:
