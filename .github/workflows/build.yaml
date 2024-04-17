@@ -48,7 +48,7 @@ jobs:
 
       - name: Save Docker
         run: |
-          docker save -o github-poc.tar github-poc
+          docker save -o github-poc.tar yanmanatkerno/github-poc
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
