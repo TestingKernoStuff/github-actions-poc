@@ -25,7 +25,7 @@ jib {
         image = "eclipse-temurin:17-jre"
     }
     to {
-        image = "yanmanatkerno/github-poc"
+        image = "yanmanatkerno/github-poc-pt2"
         tags = setOf(
             System.getenv("GITHUB_SHA")
         )
