@@ -35,7 +35,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN}}
 
       - name: Docker build
-        run: docker build -t yanmanatkerno/github-poc:latest .
+        run: docker build -t yanmanatkerno/github-poc:latestest .
 
       - name: Docker push
-        run: docker push yanmanatkerno/github-poc:latest
+        run: docker push yanmanatkerno/github-poc:latestest
