@@ -31,11 +31,8 @@ jobs:
       - name: Login to Docker
         uses: docker/login-action@v3
         with:
-          username: yanmanatkerno
-          password: ${{ secrets.DOCKERHUB_TOKEN}}
+          username: yanishr
+          password: ${{ secrets.DOCKERHUB_TOKEN_PERS}}
 
-      - name: Docker build
-        run: docker build -t yanmanatkerno/github-poc:latestest .
-
-      - name: Docker push
-        run: docker push yanmanatkerno/github-poc:latestest
+      - name: Jib
+        run: ./gradlew jib
