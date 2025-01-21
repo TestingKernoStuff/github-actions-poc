@@ -13,5 +13,4 @@ fun main() {
     println("hello hello")
     println("Bye bye")
     println("Hello again")
-    println("Hello, are you there?")
 }
